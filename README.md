@@ -1,38 +1,82 @@
-# sv
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Projektin sisältö
 
-## Creating a project
+### Kuvaus
 
-If you're seeing this, you've probably already done this step. Congrats!
+Tietovisa-tyylinen ohjelma, jossa käyttäjä voi testata tietojaan eri aiheista.
+neljä vastausvaihtoehtoa, joista yksi on oikea. Ohjelma kertoo käyttäjälle oikeat vastaukset ja pistemäärän.
+Kysymyksien aihealueen käyttäjä valitsee itse. 
+Kymmenen kysymystä per aihealue. Ohjelma kertoo käyttäjälle oikeat vastaukset ja pistemäärän.
+Kysymykset ja vastaukset ovat ulkoisesta datalähteestä.
 
-```bash
-# create a new project in the current directory
-npx sv create
 
-# create a new project in my-app
-npx sv create my-app
-```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Projektiryhmä
 
-```bash
-npm run dev
+##
+| Nimi           | Vastuurooli          |
+| -------------- | -------------------- |
+| Jarius Korpisaari | Julkaisu/ laadunhallinta-päällikkö|
+| Jesse Kokki    |      Git-päällikkö   |
+| Jani Saari    |Dokumentti-päällikkö   |
+| Essi Kaukometsä | Tehtävä-päällikkö   |
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+### Tavoite
 
-To create a production version of your app:
+Tavoitteena saada toimiva tietovisa-tyylinen ohjelma.
+## Aikataulu
 
-```bash
-npm run build
-```
+| Tapahtuma        | Päivämäärä | Muut tiedot/osanottajat                  |
+| ---------------- | ---------- | ---------------------------------------- |
+| Projekti alkaa   | 22.04.2025 | Ohjelmistoprojekti 1 alkaa               |
+| Idean valinta    | 24.04.2025 | Valitaan tuotantoon menevä projekti-idea |
+| Tuotannon aloitus| 28.04.2025 | Aloitetaan tuotantoon päätynyt projekti-idea|
+| Ensimmäminen viikkopalaveri | 25.04.2025| Käydään läpi ensimmäisen viikon tapahtumat|
+| Toinen viikkopalaveri | 02.05.2025| Käydään läpi toisen viikon tapahtumat |
+| Kolmas viikkopalaveri | 09.05.2025| Käydään läpi kolmannen viikon tapahtumat |
+| Tuotannon päättyminen| 09.05.2025| Ohjelmistoprojekti 1 tuotanto päättyy |
+| Viimeistelyn aloittaminen | 12.05.2025 | Ohjelmistoprojekti 1 viimeistely alkaa   |
+| Viimeistelyn päättyminen | 15.05.2025 | Ohjelmistoprojekti 1 viimeistely päättyy |
+| Projekti päättyy | 16.05.2025 | Ohjelmistoprojekti 1 päättyy             |
 
-You can preview the production build with `npm run preview`.
+## Raportointi, kommunikointi ja dokumentointi
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+### Raportointi
+
+Teamsin välityksellä pidetään yhteyttä ja kasvotusten koululla
+
+
+### Tuntikirjaukset
+
+Tuntikirjaukset tehdään valmiiseen excel-pohjaan. Tuntikirjaukset tehdään päivittäin. Jokainen ryhmän jäsen täyttää omat tuntinsa.
+
+
+### Palaverikäytänteet
+
+Dokumentti-päällikkö vastaa palaverien aikataulutuksesta ja merkinnöistä.
+
+
+### Kommunikointitavat
+
+Teams, Trello, sähköposti. 
+
+### Dokumentointi
+
+Dokumentti-pälikkö vastaa lähtökohtaisesti projektin dokumentoinnista. Dokumentit jaetaan Teamsissa.
+
+### Dokumenttien hallinta
+
+Kaikilla ryhmän jäsenillä pääsy dokumenttien hallintaan. Dokumentit jaetaan Teamsissa.
+
+## Riskien hallinta
+
+
+
+| Riskit                                                       | Todennäköisyys |  Impakti | Minimointi                             |
+| ------------------------------------------------------------ | -------------- | -------- | -------------------------------------- |
+| Työntekijät eivät saavu paikalle syystä tai toisesta         | Pieni          |  Suuri   |  Työntekijät sitoutuvat projektiin ja aikatauluihin. |
+| Sairastuminen tai muu este työnteolle                        | Pieni          |  keskivaikea   |   Jos kipeä olo, välttää tulematta paikalle. |
+| Työntekijä ei osaa                                           | Pieni          |  keskivaikea   |  Asioiden opettelua ja harjoittelua, muut auttavat |
+| 
